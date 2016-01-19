@@ -1,0 +1,10 @@
+ius:
+  # URL to the IUS RPM to install
+  rpm: default varies with OS; see ius/init.sls
+
+  # URL to the IUS GPG key
+  pubkey: default varies with OS; see ius/init.sls
+  pubkey_hash: default varies with OS; see ius/init.sls
+
+  # Disable repo so requires the --enablerepo flag to use
+  disabled: false
